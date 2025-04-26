@@ -1,0 +1,85 @@
+body {
+    font-family: 'Jetbrains Mono';
+    background-color: black;
+    color: azure;
+    margin: 0;
+    padding: 24px;
+}
+
+h1,h2 {
+    text-align: center;
+}
+
+h1 {
+    color: #328652;
+    text-shadow: 2px 2px 3px white;
+    font-weight: bold;
+}
+
+h2 {
+    color:#328652;
+    text-shadow: 1.5px 1.5px 3px white;
+}
+
+.container {
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    min-height: 35vh;
+}
+
+.tcontainer {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.combo {
+    color: #f59999;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid white;
+    margin: 5px;
+}
+
+.sm-block {
+    font-size: 16px;
+}
+
+tr,td {
+    text-align: center;
+    color: #000000;
+}
+
+thead {
+    padding: (12px * 1.5) 0;
+    text-transform: uppercase;
+}
+
+th {
+    background: #00521f;
+    color: #EEEEEE;
+}
+
+tr {
+    padding: (12px * 1.5) 0;
+    background: #b4b4b4;
+    &:nth-of-type(odd) {
+        background: #EEEEEE;
+    }
+}
