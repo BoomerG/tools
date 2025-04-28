@@ -21,13 +21,10 @@ THIS IS AN EXAMPLE
 ```bash
 /tools
 ├── custom/
-│   ├── my-script-1/
-│   ├── infra-automation-tool/
-│   └── security-scanner-script/
+│   ├── apa_discord_bot/
+│   ├── apa_tm_optimizer/
+│   └── csv_reader/
 ├── forks/
-│   ├── trivy-scanner/
-│   ├── tfsec-checker/
-│   └── kube-bench-hardener/
 └── README.md
 ```
 
