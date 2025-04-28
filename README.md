@@ -37,9 +37,9 @@ THIS IS AN EXAMPLE
 
 | Tool Name | Type | Description |
 |:---|:---|:---|
-| `infra-automation-tool` | Custom | Automates multi-cloud resource provisioning using Terraform modules. |
-| `trivy-scanner` | Fork | Container vulnerability scanner integrated with CI/CD pipelines. |
-| `kube-bench-hardener` | Fork | Kubernetes cluster CIS benchmark compliance tool, with custom policies. |
+| `apa_discord_bot` | Custom |  |
+| `apa_tm_optimizer` | Custom |  |
+| `csv_reader` | Custom |  |
 
 ---
 
