@@ -19,7 +19,7 @@ Every tool is organized, documented, and ready for use or further development.
 ## 🧰 Repository Structure
 THIS IS AN EXAMPLE
 ```bash
-/Tools
+/tools
 ├── custom/
 │   ├── my-script-1/
 │   ├── infra-automation-tool/
@@ -56,7 +56,7 @@ Each tool contains its own README for:
 
 Clone the repo:
 ```bash
-git clone https://github.com/boomerg/Tools.git
+git clone https://github.com/boomerg/tools.git
 cd Tools
 ```
 
